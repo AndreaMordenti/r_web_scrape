@@ -1,4 +1,4 @@
-setwd("~/Desktop/R")
+#setwd("~/Desktop/R")
 
 library(RSelenium)
 
@@ -14,7 +14,7 @@ webElem <- browser$findElement(using = 'name', value = 'email')
 webElem$highlightElement()
 webElem$sendKeysToElement(list("pinkopallo87@gmail.com"))
 webElem <- browser$findElement(using = 'name', value = 'pass')
-webElem$sendKeysToElement(list("xxxx", "\uE007"))
+webElem$sendKeysToElement(list("xxx@@", "\uE007"))
 
 #elem <- browser$findElement(using = 'css selector', 'body > object')
 #for(c in 1:50){
